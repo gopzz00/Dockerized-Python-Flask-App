@@ -33,16 +33,6 @@ This is a simple Flask application that displays a welcome message and runs in a
    - Open your browser and visit: [http://localhost:5000]
 
 
-
-### **Folder Structure**
-flask-app/
-│
-├── app.py              # The main Flask application
-├── requirements.txt    # Python dependencies
-└── Dockerfile          # Docker configuration
-
-
-
 ### **Technologies Used**
 - **Python**: Programming language used for the Flask app.
 - **Flask**: Lightweight web framework for Python.
