@@ -20,7 +20,7 @@ This is a simple Flask application that displays a welcome message and runs in a
 ### **Installation and Usage**
 
 1. **Clone the Repository**
-   git clone https://github.com/gopzz00/.git
+   git clone https://github.com/gopzz00/Dockerized-Python-Flask-App.git
    cd dockerized-flask-app
 
 2. **Build the Docker Image**
@@ -57,4 +57,4 @@ flask-app/
    - Installs the required Python dependencies.
    - Runs the Flask application on container start.
 3. The app runs on port 5000, which is exposed via Docker.
-.........................................
+---
