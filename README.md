@@ -3,29 +3,24 @@
 
 This is a simple Flask application that displays a welcome message and runs in a Docker container. The project demonstrates how to containerize a basic Python web application using Docker.
 
----
 
 ## **Features**
 - Minimal Flask application
 - Dockerized for easy deployment
 - Runs on any platform that supports Docker
 
----
 
 ## **Getting Started**
 
 
----
-
 ### **Prerequisites**
 - Install [Docker](https://www.docker.com/).
 
----
 
 ### **Installation and Usage**
 
 1. **Clone the Repository**
-   git clone https://github.com/yourusername/dockerized-flask-app.git
+   git clone https://github.com/gopzz00/.git
    cd dockerized-flask-app
 
 2. **Build the Docker Image**
@@ -37,7 +32,7 @@ This is a simple Flask application that displays a welcome message and runs in a
 4. **Access the Application**
    - Open your browser and visit: [http://localhost:5000]
 
----
+
 
 ### **Folder Structure**
 flask-app/
@@ -46,14 +41,13 @@ flask-app/
 ├── requirements.txt    # Python dependencies
 └── Dockerfile          # Docker configuration
 
----
+
 
 ### **Technologies Used**
 - **Python**: Programming language used for the Flask app.
 - **Flask**: Lightweight web framework for Python.
 - **Docker**: To containerize the application.
 
----
 
 ### **How It Works**
 1. The `app.py` script creates a Flask web application with one route (`/`) that returns a welcome message.
